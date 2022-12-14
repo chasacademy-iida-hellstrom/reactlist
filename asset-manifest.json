@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactlist/static/css/main.a6ef9471.css",
+    "main.js": "/reactlist/static/js/main.2784d224.js",
+    "index.html": "/reactlist/index.html",
+    "main.a6ef9471.css.map": "/reactlist/static/css/main.a6ef9471.css.map",
+    "main.2784d224.js.map": "/reactlist/static/js/main.2784d224.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6ef9471.css",
+    "static/js/main.2784d224.js"
+  ]
+}
