@@ -49,6 +49,7 @@ function deleteItem(id) {
 const editItem = index => {
   const newTodos = [...todos];
   todos[index-1].title = inputRef.current.value;
+ 
   setTodos(newTodos);
 };
 
@@ -63,8 +64,7 @@ return (
   <input className="form-control" placeholder="Type movie here:" ref={inputRef} onKeyUp={addItem}></input>
     <ul className="listItems">
 
-    Did you spell the movie wrong? Edit the title here and press the edit- button next to the movie!
-<input className="form-control" placeholder="Edit movie title here" ref={inputRef} ></input> 
+  
    
         {todos.map((todo, index) => <Todo key={index} item={todo}  index={index} deleteItem={deleteItem}  editItem={editItem}/>
 
