@@ -1,4 +1,7 @@
 import TodoList from './TodoList';
+import "./index.css";
+
+
 
 
 
@@ -18,3 +21,6 @@ function App() {
 }
 
 export default App;
+
+
+
