@@ -6,10 +6,12 @@ import React from 'react';
 
 export default function Todo(props)  {
 return (
+    
     <li className="list-group-item">
     { props.item.title }
+  
     <button className= "btn float-end" onClick={() => {props.deleteItem(props.item.id)}}> Seen it! </button>
-    
+    <button onClick = {() => {props.editItem(props.item.id)}}>Edit</button>
    
     </li>
 )
