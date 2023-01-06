@@ -11,7 +11,7 @@ return (
     { props.item.title }
   
     <button className= "btn float-end" onClick={() => {props.deleteItem(props.item.id)}}> Seen it! </button>
-    <button onClick = {() => {props.editItem(props.item.id)}}>Edit</button>
+    <button onClick = {() => {props.editItem(props.index)}}>Edit</button>
    
     </li>
 )

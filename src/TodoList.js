@@ -7,9 +7,10 @@ export default function TodoList() {
     {
     id: 1,
     title: "Home Alone",
+    
     },
     
-    {
+   {
     id:2,
     title: "Elf"},
     
@@ -49,7 +50,7 @@ function deleteItem(id) {
 
 const editItem = index => {
   const newTodos = [...todos];
-  todos[index-1].title = inpRef.current.value;
+  todos[index].title = inpRef.current.value;
   setTodos(newTodos);
 };
 
